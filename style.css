@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #000814;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+    opacity: 0.6;
+  }
+
+.login {
+    width: 600px;
+    height: 500px;
+    display: block;
+    margin: 150px auto;
+    background-color: #000814;
+    padding: 15px;
+}
+
+.img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.form {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+}
+.form input {
+    display: inline-block;
+    margin: 10px auto;
+    width: 300px;
+    height: 28px;
+    border: none;
+    border-bottom: 2px solid white;
+    text-indent: 30px;
+    background-color: #000814;
+    color: #FFF;
+    outline: 0;
+    
+}
+
+ion-icon {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 15px;
+}
+
+.icon-2 {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 62px;
+}
+
+
+
+.remember {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.remember input {
+    width: 10px;
+    vertical-align: middle;
+}
+
+.remember a {
+    text-decoration: none;
+    float: right;
+    margin-top: 16px;
+    color: #FFF;
+}
+
+.btn {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    width: 100%;
+    height: 35px;
+    display: block;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffe6a7;
+    color: #000814;
+    border: none;
+    border-radius: 50px;
+    transition: all 1s ease-in-out;
+}
